@@ -13,10 +13,11 @@
         <h1>Cash Register</h1>
         <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
         <label for="bill-amount" >Bill Amount:</label>
-        <input type="text">
+        <input id="bill-amount" type="text">
         <label for="cash-amount">Cash Amount:</label>
         <input id="cash-amount" type="text">
         <button id="btn-calculate">calculate</button>
+        <p id="error-message"></p>
         <table id="change-table">
             <caption>
                 return change
@@ -25,6 +26,13 @@
                 <th>
                     NO.of Notes
                 </th>
+                <td class ="no-of-notes"></td>
+                <td class ="no-of-notes"></td>
+                <td class ="no-of-notes"></td>
+                <td class ="no-of-notes"></td>
+                <td class ="no-of-notes"></td>
+                <td class ="no-of-notes"></td>
+                <td class ="no-of-notes"></td>
             </tr>
             <tr>
                 <th>
@@ -46,5 +54,5 @@
     </div>
     
 </body>
-    <script src="/app,js"></script>
+    <script src="/app.js"></script>
 </html>
