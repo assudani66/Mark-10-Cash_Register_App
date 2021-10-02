@@ -1,8 +1,137 @@
-*{
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root {
+  --primary-color: #6884ff;
 }
 .continer{
     display: flex;
+    margin: auto;
     flex-direction: column;
     width: 50vw;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 0px auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.3rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  font-size: 15px;
+  width: 100%;
+  padding: 0;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 80px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer .link {
+  color: var(--primary-color);
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.question-container {
+  margin: 3rem auto;
+}
+
+.question-container p {
+  margin: 10px auto;
+}
+
+#submit {
+  height: 50px;
+  width: 180px;
+  background-color: var(--primary-color);
+  outline: none;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#output {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#btn-calculate {
+  height: 50px;
+  width: 180px;
+  background-color: var(--primary-color);
+  outline: none;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#calculate {
+  height: 50px;
+  width: 180px;
+  background-color: var(--primary-color);
+  outline: none;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input-style {
+  display: block;
+  margin: 0.5rem auto;
+  height: 30px;
+  padding: 0.5rem;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  outline: none;
 }
